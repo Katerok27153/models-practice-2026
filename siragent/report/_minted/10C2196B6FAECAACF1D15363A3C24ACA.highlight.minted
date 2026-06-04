@@ -1,0 +1,20 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{n}{p1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{plot}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{grouped}\PYG{o}{.}\PYG{n}{beta}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{grouped}\PYG{o}{.}\PYG{n}{mean\PYGZus{}peak}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{label}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Пик эпидемии\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{xlabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Коэффициент заразности β\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{ylabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Доля инфицированных\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{marker}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{:circle}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{linewidth}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{,}
+\PYG{p}{)}
+
+\PYG{n}{plot!}\PYG{p}{(}\PYG{n}{p1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{grouped}\PYG{o}{.}\PYG{n}{beta}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{grouped}\PYG{o}{.}\PYG{n}{mean\PYGZus{}final\PYGZus{}inf}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{label}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Конечная доля инфицированных\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{marker}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{:square}\PYG{p}{)}
+\PYG{n}{plot!}\PYG{p}{(}\PYG{n}{p1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{grouped}\PYG{o}{.}\PYG{n}{beta}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{grouped}\PYG{o}{.}\PYG{n}{mean\PYGZus{}deaths}\PYG{+w}{ }\PYG{o}{./}\PYG{+w}{ }\PYG{l+m+mi}{3000}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{label}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Доля умерших\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{marker}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{:diamond}\PYG{p}{)}
+
+\PYG{n}{savefig}\PYG{p}{(}\PYG{n}{plotsdir}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}beta\PYGZus{}scan.png\PYGZdq{}}\PYG{p}{))}
+
+\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Результаты сохранены в data/beta\PYGZus{}scan\PYGZus{}all.csv и plots/beta\PYGZus{}scan.png\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{p1}
+\end{MintedVerbatim}

@@ -1,0 +1,16 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{n}{p}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{plot}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{agent\PYGZus{}df}\PYG{o}{.}\PYG{n}{time}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{agent\PYGZus{}df}\PYG{o}{.}\PYG{n}{susceptible}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{label}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Восприимчивые\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{xlabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Дни\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{ylabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Количество\PYGZdq{}}\PYG{p}{,}
+\PYG{p}{)}
+
+\PYG{n}{plot!}\PYG{p}{(}\PYG{n}{p}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{agent\PYGZus{}df}\PYG{o}{.}\PYG{n}{time}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{agent\PYGZus{}df}\PYG{o}{.}\PYG{n}{infected}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{label}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Инфицированные\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{plot!}\PYG{p}{(}\PYG{n}{p}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{agent\PYGZus{}df}\PYG{o}{.}\PYG{n}{time}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{agent\PYGZus{}df}\PYG{o}{.}\PYG{n}{recovered}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{label}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Выздоровевшие\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{plot!}\PYG{p}{(}\PYG{n}{p}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{agent\PYGZus{}df}\PYG{o}{.}\PYG{n}{time}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{model\PYGZus{}df}\PYG{o}{.}\PYG{n}{total}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{label}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Всего (включая умерших)\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{linestyle}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{:dash}\PYG{p}{)}
+\PYG{n}{savefig}\PYG{p}{(}\PYG{n}{plotsdir}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}sir\PYGZus{}basic\PYGZus{}dynamics.png\PYGZdq{}}\PYG{p}{))}
+
+\PYG{n}{p}
+\end{MintedVerbatim}

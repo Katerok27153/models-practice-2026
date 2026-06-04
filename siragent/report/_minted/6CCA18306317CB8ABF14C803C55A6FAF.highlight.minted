@@ -1,0 +1,3 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{n}{df}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{CSV}\PYG{o}{.}\PYG{n}{read}\PYG{p}{(}\PYG{n}{datadir}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}beta\PYGZus{}scan\PYGZus{}all.csv\PYGZdq{}}\PYG{p}{),}\PYG{+w}{ }\PYG{n}{DataFrame}\PYG{p}{)}
+\end{MintedVerbatim}

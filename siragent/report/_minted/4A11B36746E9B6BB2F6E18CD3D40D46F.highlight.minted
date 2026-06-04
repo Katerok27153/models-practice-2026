@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k}{using}\PYG{+w}{ }\PYG{n}{DrWatson}
+\PYG{n+nd}{@quickactivate}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}project\PYGZdq{}}
+\PYG{k}{using}\PYG{+w}{ }\PYG{n}{Agents}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{DataFrames}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Plots}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{CSV}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Random}
+
+\PYG{n}{include}\PYG{p}{(}\PYG{n}{srcdir}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}sir\PYGZus{}model.jl\PYGZdq{}}\PYG{p}{))}
+\end{MintedVerbatim}

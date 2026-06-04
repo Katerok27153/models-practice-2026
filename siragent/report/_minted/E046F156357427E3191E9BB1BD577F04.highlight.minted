@@ -1,0 +1,13 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{n}{p1}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{plot}\PYG{p}{(}\PYG{n}{df}\PYG{o}{.}\PYG{n}{beta}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{df}\PYG{o}{.}\PYG{n}{peak}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{label}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Пик\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{xlabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}β\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ylabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Доля инфицированных\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{plot!}\PYG{p}{(}\PYG{n}{p1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{df}\PYG{o}{.}\PYG{n}{beta}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{df}\PYG{o}{.}\PYG{n}{final\PYGZus{}inf}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{label}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Конечная\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{p2}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{plot}\PYG{p}{(}\PYG{n}{df}\PYG{o}{.}\PYG{n}{beta}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{df}\PYG{o}{.}\PYG{n}{deaths}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{xlabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}β\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ylabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Число умерших\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{p3}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{plot}\PYG{p}{(}\PYG{n}{df}\PYG{o}{.}\PYG{n}{beta}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{df}\PYG{o}{.}\PYG{n}{final\PYGZus{}rec}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{xlabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}β\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ylabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Доля выздоровевших\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{combined}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{plot}\PYG{p}{(}\PYG{n}{p1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{p2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{p3}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{layout}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{),}\PYG{+w}{ }\PYG{n}{size}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{l+m+mi}{800}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{900}\PYG{p}{))}
+
+\PYG{n}{savefig}\PYG{p}{(}\PYG{n}{plotsdir}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}comprehensive\PYGZus{}analysis.png\PYGZdq{}}\PYG{p}{))}
+
+\PYG{n}{combined}
+\end{MintedVerbatim}

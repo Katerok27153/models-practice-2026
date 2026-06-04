@@ -1,0 +1,4 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{n+nd}{@save}\PYG{+w}{ }\PYG{n}{datadir}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}sir\PYGZus{}basic\PYGZus{}agent.jld2\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{agent\PYGZus{}df}
+\PYG{n+nd}{@save}\PYG{+w}{ }\PYG{n}{datadir}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}sir\PYGZus{}basic\PYGZus{}model.jld2\PYGZdq{}}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{model\PYGZus{}df}
+\end{MintedVerbatim}

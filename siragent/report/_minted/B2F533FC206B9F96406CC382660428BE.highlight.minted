@@ -1,0 +1,4 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{n}{agent\PYGZus{}df}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{DataFrame}\PYG{p}{(}\PYG{n}{time}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{times}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{susceptible}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{S\PYGZus{}vals}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{infected}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{I\PYGZus{}vals}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{recovered}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{R\PYGZus{}vals}\PYG{p}{)}
+\PYG{n}{model\PYGZus{}df}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{DataFrame}\PYG{p}{(}\PYG{n}{time}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{times}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{total}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{total\PYGZus{}vals}\PYG{p}{)}
+\end{MintedVerbatim}

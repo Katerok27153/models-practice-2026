@@ -1,0 +1,24 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{n}{p2}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{plot}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{grouped}\PYG{o}{.}\PYG{n}{migration\PYGZus{}intensity}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{grouped}\PYG{o}{.}\PYG{n}{mean\PYGZus{}peak\PYGZus{}time}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{marker}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{:circle}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{xlabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Интенсивность миграции\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{ylabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Время до пика (дни)\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{label}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Время пика\PYGZdq{}}\PYG{p}{,}
+\PYG{p}{)}
+\PYG{n}{plot!}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{p2}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{grouped}\PYG{o}{.}\PYG{n}{migration\PYGZus{}intensity}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{grouped}\PYG{o}{.}\PYG{n}{mean\PYGZus{}peak\PYGZus{}value}\PYG{+w}{ }\PYG{o}{.*}\PYG{+w}{ }\PYG{l+m+mi}{3000}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{marker}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+ss}{:square}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{xlabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Интенсивность миграции\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{ylabel}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Численность в пике\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{label}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Пиковая заболеваемость\PYGZdq{}}\PYG{p}{,}
+\PYG{p}{)}
+\PYG{n}{savefig}\PYG{p}{(}\PYG{n}{plotsdir}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}migration\PYGZus{}effect.png\PYGZdq{}}\PYG{p}{))}
+
+\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Результаты сохранены в data/migration\PYGZus{}scan\PYGZus{}all.csv и plots/migration\PYGZus{}effect.png\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{p2}
+\end{MintedVerbatim}

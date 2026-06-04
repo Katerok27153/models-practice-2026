@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k}{using}\PYG{+w}{ }\PYG{n}{Statistics}
+\PYG{n}{grouped}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{combine}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{groupby}\PYG{p}{(}\PYG{n}{df}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{[}\PYG{l+s+ss}{:migration\PYGZus{}intensity}\PYG{p}{]),}
+\PYG{+w}{    }\PYG{l+s+ss}{:peak\PYGZus{}time}\PYG{+w}{ }\PYG{o}{=\PYGZgt{}}\PYG{+w}{ }\PYG{n}{mean}\PYG{+w}{ }\PYG{o}{=\PYGZgt{}}\PYG{+w}{ }\PYG{l+s+ss}{:mean\PYGZus{}peak\PYGZus{}time}\PYG{p}{,}
+\PYG{+w}{    }\PYG{l+s+ss}{:peak\PYGZus{}value}\PYG{+w}{ }\PYG{o}{=\PYGZgt{}}\PYG{+w}{ }\PYG{n}{mean}\PYG{+w}{ }\PYG{o}{=\PYGZgt{}}\PYG{+w}{ }\PYG{l+s+ss}{:mean\PYGZus{}peak\PYGZus{}value}\PYG{p}{,}
+\PYG{p}{)}
+\end{MintedVerbatim}

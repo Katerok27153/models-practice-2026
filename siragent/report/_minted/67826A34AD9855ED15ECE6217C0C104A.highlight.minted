@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k}{for}\PYG{+w}{ }\PYG{n}{step}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{o}{:}\PYG{n}{params}\PYG{p}{[}\PYG{l+s+ss}{:n\PYGZus{}steps}\PYG{p}{]}
+\PYG{+w}{    }\PYG{n}{Agents}\PYG{o}{.}\PYG{n}{step!}\PYG{p}{(}\PYG{n}{model}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{push!}\PYG{p}{(}\PYG{n}{times}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{step}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{push!}\PYG{p}{(}\PYG{n}{S\PYGZus{}vals}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{susceptible\PYGZus{}count}\PYG{p}{(}\PYG{n}{model}\PYG{p}{))}
+\PYG{+w}{    }\PYG{n}{push!}\PYG{p}{(}\PYG{n}{I\PYGZus{}vals}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{infected\PYGZus{}count}\PYG{p}{(}\PYG{n}{model}\PYG{p}{))}
+\PYG{+w}{    }\PYG{n}{push!}\PYG{p}{(}\PYG{n}{R\PYGZus{}vals}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{recovered\PYGZus{}count}\PYG{p}{(}\PYG{n}{model}\PYG{p}{))}
+\PYG{+w}{    }\PYG{n}{push!}\PYG{p}{(}\PYG{n}{total\PYGZus{}vals}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{total\PYGZus{}count}\PYG{p}{(}\PYG{n}{model}\PYG{p}{))}
+\PYG{k}{end}
+\end{MintedVerbatim}

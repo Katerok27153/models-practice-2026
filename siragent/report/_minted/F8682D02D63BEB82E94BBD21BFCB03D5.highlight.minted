@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{n}{results}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{[]}
+\PYG{k}{for}\PYG{+w}{ }\PYG{n}{params}\PYG{+w}{ }\PYG{k}{in}\PYG{+w}{ }\PYG{n}{params\PYGZus{}list}
+\PYG{+w}{    }\PYG{n}{data}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{peak\PYGZus{}time}\PYG{p}{(}\PYG{n}{params}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{push!}\PYG{p}{(}\PYG{n}{results}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{merge}\PYG{p}{(}\PYG{n}{params}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{Dict}\PYG{p}{(}\PYG{n}{pairs}\PYG{p}{(}\PYG{n}{data}\PYG{p}{))))}
+\PYG{+w}{    }\PYG{n}{println}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Завершён эксперимент с migration\PYGZus{}intensity = }\PYG{l+s+si}{\PYGZdl{}}\PYG{p}{(}\PYG{n}{params}\PYG{p}{[}\PYG{l+s+ss}{:migration\PYGZus{}intensity}\PYG{p}{])}\PYG{l+s}{, seed = }\PYG{l+s+si}{\PYGZdl{}}\PYG{p}{(}\PYG{n}{params}\PYG{p}{[}\PYG{l+s+ss}{:seed}\PYG{p}{])}\PYG{l+s}{\PYGZdq{}}\PYG{p}{,)}
+\PYG{k}{end}
+\end{MintedVerbatim}
