@@ -1,9 +1,0 @@
-\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
-\PYG{k}{function}\PYG{+w}{ }\PYG{n}{create\PYGZus{}migration\PYGZus{}matrix}\PYG{p}{(}\PYG{n}{C}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{intensity}\PYG{p}{)}
-\PYG{+w}{    }\PYG{n}{M}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{ones}\PYG{p}{(}\PYG{n}{C}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{C}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{.*}\PYG{+w}{ }\PYG{n}{intensity}\PYG{+w}{ }\PYG{o}{./}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{C}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}
-\PYG{+w}{    }\PYG{k}{for}\PYG{+w}{ }\PYG{n}{i}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{o}{:}\PYG{n}{C}
-\PYG{+w}{        }\PYG{n}{M}\PYG{p}{[}\PYG{n}{i}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{i}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n}{intensity}
-\PYG{+w}{    }\PYG{k}{end}
-\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{M}
-\PYG{k}{end}
-\end{MintedVerbatim}

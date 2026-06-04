@@ -1,4 +1,0 @@
-\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
-\PYG{n}{beta\PYGZus{}range}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{0.1}\PYG{o}{:}\PYG{l+m+mf}{0.1}\PYG{o}{:}\PYG{l+m+mf}{1.0}
-\PYG{n}{seeds}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{[}\PYG{l+m+mi}{42}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{43}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{44}\PYG{p}{]}
-\end{MintedVerbatim}
